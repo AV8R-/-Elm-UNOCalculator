@@ -8,24 +8,90 @@
 
 /* Begin PBXBuildFile section */
 		3060C125201A802F00BE0C82 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C124201A802F00BE0C82 /* AppDelegate.swift */; };
-		3060C127201A802F00BE0C82 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C126201A802F00BE0C82 /* ViewController.swift */; };
-		3060C12A201A803000BE0C82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3060C128201A803000BE0C82 /* Main.storyboard */; };
 		3060C12C201A803000BE0C82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3060C12B201A803000BE0C82 /* Assets.xcassets */; };
 		3060C12F201A803000BE0C82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3060C12D201A803000BE0C82 /* LaunchScreen.storyboard */; };
+		3060C146201A897F00BE0C82 /* UNOCalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C145201A897F00BE0C82 /* UNOCalculatorApp.swift */; };
+		3060C150201A899700BE0C82 /* VirtualViews.h in Headers */ = {isa = PBXBuildFile; fileRef = 3060C14E201A899700BE0C82 /* VirtualViews.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3060C153201A899700BE0C82 /* VirtualViews.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3060C14C201A899600BE0C82 /* VirtualViews.framework */; };
+		3060C154201A899700BE0C82 /* VirtualViews.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3060C14C201A899600BE0C82 /* VirtualViews.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3060C159201A89A100BE0C82 /* VirtualViews+Rendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C13F201A895C00BE0C82 /* VirtualViews+Rendering.swift */; };
+		3060C15A201A89A100BE0C82 /* VirtualViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C141201A895C00BE0C82 /* VirtualViews.swift */; };
+		3060C164201A8ABF00BE0C82 /* Elm.h in Headers */ = {isa = PBXBuildFile; fileRef = 3060C162201A8ABE00BE0C82 /* Elm.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3060C167201A8ABF00BE0C82 /* Elm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3060C160201A8ABE00BE0C82 /* Elm.framework */; };
+		3060C168201A8ABF00BE0C82 /* Elm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3060C160201A8ABE00BE0C82 /* Elm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3060C16E201A8ACB00BE0C82 /* SideEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C16C201A8ACB00BE0C82 /* SideEffects.swift */; };
+		3060C16F201A8ACB00BE0C82 /* Driver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3060C16D201A8ACB00BE0C82 /* Driver.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3060C151201A899700BE0C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3060C119201A802F00BE0C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3060C14B201A899600BE0C82;
+			remoteInfo = VirtualViews;
+		};
+		3060C165201A8ABF00BE0C82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3060C119201A802F00BE0C82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3060C15F201A8ABE00BE0C82;
+			remoteInfo = Elm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3060C158201A899700BE0C82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3060C154201A899700BE0C82 /* VirtualViews.framework in Embed Frameworks */,
+				3060C168201A8ABF00BE0C82 /* Elm.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3060C121201A802F00BE0C82 /* UNOCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UNOCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3060C124201A802F00BE0C82 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3060C126201A802F00BE0C82 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3060C129201A803000BE0C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3060C12B201A803000BE0C82 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3060C12E201A803000BE0C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3060C130201A803000BE0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3060C13F201A895C00BE0C82 /* VirtualViews+Rendering.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VirtualViews+Rendering.swift"; sourceTree = "<group>"; };
+		3060C141201A895C00BE0C82 /* VirtualViews.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VirtualViews.swift; sourceTree = "<group>"; };
+		3060C145201A897F00BE0C82 /* UNOCalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UNOCalculatorApp.swift; sourceTree = "<group>"; };
+		3060C14C201A899600BE0C82 /* VirtualViews.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VirtualViews.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3060C14E201A899700BE0C82 /* VirtualViews.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VirtualViews.h; sourceTree = "<group>"; };
+		3060C14F201A899700BE0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3060C160201A8ABE00BE0C82 /* Elm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Elm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3060C162201A8ABE00BE0C82 /* Elm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Elm.h; sourceTree = "<group>"; };
+		3060C163201A8ABF00BE0C82 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3060C16C201A8ACB00BE0C82 /* SideEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideEffects.swift; sourceTree = "<group>"; };
+		3060C16D201A8ACB00BE0C82 /* Driver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Driver.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3060C11E201A802F00BE0C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060C153201A899700BE0C82 /* VirtualViews.framework in Frameworks */,
+				3060C167201A8ABF00BE0C82 /* Elm.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C148201A899600BE0C82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C15C201A8ABE00BE0C82 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +105,8 @@
 			isa = PBXGroup;
 			children = (
 				3060C123201A802F00BE0C82 /* UNOCalculator */,
+				3060C14D201A899700BE0C82 /* VirtualViews */,
+				3060C161201A8ABE00BE0C82 /* Elm */,
 				3060C122201A802F00BE0C82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +115,8 @@
 			isa = PBXGroup;
 			children = (
 				3060C121201A802F00BE0C82 /* UNOCalculator.app */,
+				3060C14C201A899600BE0C82 /* VirtualViews.framework */,
+				3060C160201A8ABE00BE0C82 /* Elm.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,8 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				3060C124201A802F00BE0C82 /* AppDelegate.swift */,
-				3060C126201A802F00BE0C82 /* ViewController.swift */,
-				3060C128201A803000BE0C82 /* Main.storyboard */,
+				3060C145201A897F00BE0C82 /* UNOCalculatorApp.swift */,
 				3060C12B201A803000BE0C82 /* Assets.xcassets */,
 				3060C12D201A803000BE0C82 /* LaunchScreen.storyboard */,
 				3060C130201A803000BE0C82 /* Info.plist */,
@@ -64,7 +133,48 @@
 			path = UNOCalculator;
 			sourceTree = "<group>";
 		};
+		3060C14D201A899700BE0C82 /* VirtualViews */ = {
+			isa = PBXGroup;
+			children = (
+				3060C13F201A895C00BE0C82 /* VirtualViews+Rendering.swift */,
+				3060C141201A895C00BE0C82 /* VirtualViews.swift */,
+				3060C14E201A899700BE0C82 /* VirtualViews.h */,
+				3060C14F201A899700BE0C82 /* Info.plist */,
+			);
+			path = VirtualViews;
+			sourceTree = "<group>";
+		};
+		3060C161201A8ABE00BE0C82 /* Elm */ = {
+			isa = PBXGroup;
+			children = (
+				3060C162201A8ABE00BE0C82 /* Elm.h */,
+				3060C163201A8ABF00BE0C82 /* Info.plist */,
+				3060C16D201A8ACB00BE0C82 /* Driver.swift */,
+				3060C16C201A8ACB00BE0C82 /* SideEffects.swift */,
+			);
+			path = Elm;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3060C149201A899600BE0C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060C150201A899700BE0C82 /* VirtualViews.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C15D201A8ABE00BE0C82 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060C164201A8ABF00BE0C82 /* Elm.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		3060C120201A802F00BE0C82 /* UNOCalculator */ = {
@@ -74,15 +184,54 @@
 				3060C11D201A802F00BE0C82 /* Sources */,
 				3060C11E201A802F00BE0C82 /* Frameworks */,
 				3060C11F201A802F00BE0C82 /* Resources */,
+				3060C158201A899700BE0C82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				3060C152201A899700BE0C82 /* PBXTargetDependency */,
+				3060C166201A8ABF00BE0C82 /* PBXTargetDependency */,
 			);
 			name = UNOCalculator;
 			productName = UNOCalculator;
 			productReference = 3060C121201A802F00BE0C82 /* UNOCalculator.app */;
 			productType = "com.apple.product-type.application";
+		};
+		3060C14B201A899600BE0C82 /* VirtualViews */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3060C155201A899700BE0C82 /* Build configuration list for PBXNativeTarget "VirtualViews" */;
+			buildPhases = (
+				3060C147201A899600BE0C82 /* Sources */,
+				3060C148201A899600BE0C82 /* Frameworks */,
+				3060C149201A899600BE0C82 /* Headers */,
+				3060C14A201A899600BE0C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VirtualViews;
+			productName = VirtualViews;
+			productReference = 3060C14C201A899600BE0C82 /* VirtualViews.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3060C15F201A8ABE00BE0C82 /* Elm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3060C169201A8ABF00BE0C82 /* Build configuration list for PBXNativeTarget "Elm" */;
+			buildPhases = (
+				3060C15B201A8ABE00BE0C82 /* Sources */,
+				3060C15C201A8ABE00BE0C82 /* Frameworks */,
+				3060C15D201A8ABE00BE0C82 /* Headers */,
+				3060C15E201A8ABE00BE0C82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Elm;
+			productName = Elm;
+			productReference = 3060C160201A8ABE00BE0C82 /* Elm.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +245,15 @@
 				TargetAttributes = {
 					3060C120201A802F00BE0C82 = {
 						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3060C14B201A899600BE0C82 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					3060C15F201A8ABE00BE0C82 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -114,6 +272,8 @@
 			projectRoot = "";
 			targets = (
 				3060C120201A802F00BE0C82 /* UNOCalculator */,
+				3060C14B201A899600BE0C82 /* VirtualViews */,
+				3060C15F201A8ABE00BE0C82 /* Elm */,
 			);
 		};
 /* End PBXProject section */
@@ -125,7 +285,20 @@
 			files = (
 				3060C12F201A803000BE0C82 /* LaunchScreen.storyboard in Resources */,
 				3060C12C201A803000BE0C82 /* Assets.xcassets in Resources */,
-				3060C12A201A803000BE0C82 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C14A201A899600BE0C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C15E201A8ABE00BE0C82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,22 +309,45 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3060C127201A802F00BE0C82 /* ViewController.swift in Sources */,
+				3060C146201A897F00BE0C82 /* UNOCalculatorApp.swift in Sources */,
 				3060C125201A802F00BE0C82 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C147201A899600BE0C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060C15A201A89A100BE0C82 /* VirtualViews.swift in Sources */,
+				3060C159201A89A100BE0C82 /* VirtualViews+Rendering.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3060C15B201A8ABE00BE0C82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3060C16E201A8ACB00BE0C82 /* SideEffects.swift in Sources */,
+				3060C16F201A8ACB00BE0C82 /* Driver.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		3060C128201A803000BE0C82 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3060C129201A803000BE0C82 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		3060C152201A899700BE0C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3060C14B201A899600BE0C82 /* VirtualViews */;
+			targetProxy = 3060C151201A899700BE0C82 /* PBXContainerItemProxy */;
 		};
+		3060C166201A8ABF00BE0C82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3060C15F201A8ABE00BE0C82 /* Elm */;
+			targetProxy = 3060C165201A8ABF00BE0C82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
 		3060C12D201A803000BE0C82 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -273,6 +469,7 @@
 		3060C134201A803000BE0C82 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DDN2V9TNSF;
@@ -288,6 +485,7 @@
 		3060C135201A803000BE0C82 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DDN2V9TNSF;
@@ -297,6 +495,105 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3060C156201A899700BE0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DDN2V9TNSF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VirtualViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manshilin.VirtualViews;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3060C157201A899700BE0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DDN2V9TNSF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = VirtualViews/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manshilin.VirtualViews;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3060C16A201A8ABF00BE0C82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DDN2V9TNSF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Elm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manshilin.Elm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3060C16B201A8ABF00BE0C82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = DDN2V9TNSF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Elm/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manshilin.Elm;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -317,6 +614,24 @@
 			buildConfigurations = (
 				3060C134201A803000BE0C82 /* Debug */,
 				3060C135201A803000BE0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3060C155201A899700BE0C82 /* Build configuration list for PBXNativeTarget "VirtualViews" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3060C156201A899700BE0C82 /* Debug */,
+				3060C157201A899700BE0C82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3060C169201A8ABF00BE0C82 /* Build configuration list for PBXNativeTarget "Elm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3060C16A201A8ABF00BE0C82 /* Debug */,
+				3060C16B201A8ABF00BE0C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
